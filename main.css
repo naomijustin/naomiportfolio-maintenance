@@ -1,0 +1,25 @@
+/* ================== Default Elements ====================== */
+ 
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #1A1A1A;
+    color: #E4DECB;
+}
+ 
+/* ======================== Page Grid ======================= */
+ 
+#maintenanceContainer {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    grid-gap: 30px;
+    
+}
+ 
+.maintenanceGridItem {
+    font-size: 18px;
+    text-align: center;
+}
+
